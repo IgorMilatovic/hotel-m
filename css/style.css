@@ -7939,7 +7939,7 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 500px;
+  min-height: 570px;
   position: relative;
 }
 #fh5co-hero .flexslider .slides li:after {
@@ -8148,7 +8148,7 @@ div.cs-select span {
 @media screen and (max-width: 829px) {
   #availability .a-col {
     width: 100% !important;
-    margin-top: -150px;
+    margin-top: -80px;
   }
 }
 #availability .a-col.alternate {
