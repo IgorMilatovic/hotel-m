@@ -9347,6 +9347,11 @@ input[type="text"] {
   height: 2px;
   border: 1px solid #FF5722;
 }
+/*Header*/
+
+.header-text-holder {
+  margin-top: 80px;
+}
 
 /*Footer*/
 
