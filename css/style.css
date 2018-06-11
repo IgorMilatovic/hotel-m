@@ -8559,9 +8559,14 @@ div.cs-select span {
     margin-top: 280px;
   }
 }
-@media (min-width: 400px) and (max-width: 750px) {
+@media (min-width: 400px) and (max-width: 790px) {
   #testimonial {
-    margin-top: 180px;
+    margin-top: 160px;
+  }
+}
+@media (min-width: 790px) and (max-width: 820px) {
+  #testimonial {
+    margin-top: 80px;
   }
 }
 #tabs .tabs-nav > a > .icon {
