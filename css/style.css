@@ -9348,9 +9348,10 @@ input[type="text"] {
   border: 1px solid #FF5722;
 }
 /*Header*/
-
-.header-text-holder {
-  margin-top: 800px;
+@media screen and (max-width: 768px) {
+  .header-text-holder {
+    margin-top: -120px;
+  }
 }
 
 /*Footer*/
