@@ -8116,7 +8116,7 @@ div.cs-select span {
 }
 @media screen and (max-width: 915px) {
   #availability {
-    margin-top: -12px;
+    margin-top: -32px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -8153,7 +8153,7 @@ div.cs-select span {
 @media screen and (max-width: 829px) {
   #availability .a-col {
     width: 100% !important;
-    margin-top: -100px;
+    margin-top: -125px;
   }
 }
 #availability .a-col.alternate {
