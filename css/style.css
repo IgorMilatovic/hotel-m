@@ -8114,6 +8114,11 @@ div.cs-select span {
     top: 0;
   }
 }
+@media screen and (max-width: 915px) {
+  #availability {
+    margin-top: -70px;
+  }
+}
 @media screen and (max-width: 769px) {
   #availability {
     width: 100%;
