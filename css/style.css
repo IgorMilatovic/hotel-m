@@ -7939,7 +7939,7 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
+  min-height: 500px;
   position: relative;
 }
 #fh5co-hero .flexslider .slides li:after {
@@ -8084,7 +8084,7 @@ div.cs-select span {
   z-index: 99;
   position: relative;
   display: flex;
-  margin-top: 0;
+  margin-top: -55px;
   margin-bottom: 0;
   -webkit-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
