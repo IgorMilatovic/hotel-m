@@ -8002,7 +8002,7 @@ figure {
 .slider-text > .slider-text-inner h2 {
   font-size: 50px;
   font-weight: 400;
-  color: #fff;
+  color: rgba(254, 254, 254, 0.8);
   line-height: 60px;
 }
 @media screen and (max-width: 768px) {
@@ -8015,6 +8015,11 @@ figure {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.8);
   padding: 7px 0;
+}
+@media screen and (max-width: 768px) {
+  .slider-text > .slider-text-inner p {
+    font-size: 14px;
+  }
 }
 .slider-text > .slider-text-inner p > span {
   text-transform: uppercase;
@@ -8142,6 +8147,7 @@ div.cs-select span {
 @media screen and (max-width: 829px) {
   #availability .a-col {
     width: 100% !important;
+    margin-top: -50px;
   }
 }
 #availability .a-col.alternate {
