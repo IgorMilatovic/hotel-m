@@ -8541,6 +8541,11 @@ div.cs-select span {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+@media screen and (max-width: 580px) {
+  #tabs .tabs-nav > a > span {
+    display: none !important;
+  }
+}
 #tabs .tabs-nav > a > .icon {
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
@@ -8634,6 +8639,7 @@ div.cs-select span {
 }
 .fa-plane, .fa-product-hunt {
   margin-bottom: 32px;
+  margin-top: 7px;
 }
 
 #fh5co-hotel-section .hotel-content .hotel-grid {
