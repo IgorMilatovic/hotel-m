@@ -9053,6 +9053,7 @@ input[type="text"] {
   .fh5co-parallax {
     /*height: inherit;*/
     /*padding: 4em 0;*/
+    background-position: 0 -1000%;
   }
 }
 .fh5co-parallax .fh5co-intro h1 {
