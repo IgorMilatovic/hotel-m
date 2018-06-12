@@ -232,5 +232,30 @@ $(function(){
    });
 
 });
+
+// otvaranje booking prozora
+
+const checkAvailability = document.querySelector('.a-col');
+const proba = document.querySelector('.proba');
+
+function pozoviBooking () {
+   let booking = document.createElement("iframe");
+   let divce = document.createElement("div");
+   divce.setAttribute('class', 'close')
+   const heyo = document.querySelector('.close');
+   booking.setAttribute('src', ' https://hotel.montenegro-booking.com/HotelMClub.html');
+   booking.setAttribute('width', ' 100%');
+   booking.setAttribute('height', '500px');
+   
+
+   let zatvori = document.createElement("a");
+   let text = 'X';
+   let zatvoriText = document.createTextNode(text);
+   zatvori.appendChild(zatvoriText);
+   // zatvori.setAttribute('class', 'ajdesad')
+   heyo.appendChild(zatvori);
+   proba.appendChild(heyo);
+   proba.appendChild(booking);
+}
 	
-	
+checkAvailability.addEventListener('click', pozoviBooking);

@@ -8183,7 +8183,7 @@ div.cs-select span {
   display: flex;
   justify-content: center;
 }
-#availability .a-col.action a {
+#availability .a-col.action p {
   align-items: center;
   vertical-align: middle;
   heght: 100%;
@@ -8199,7 +8199,7 @@ div.cs-select span {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#availability .a-col.action a::after {
+#availability .a-col.action p::after {
   font-family: 'themify';
   speak: none;
   font-style: normal;
@@ -8220,21 +8220,28 @@ div.cs-select span {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-#availability .a-col.action a:hover {
+#availability .a-col.action p:hover {
   text-decoration: none;
   background: #24282b;
   outline: none;
+  cursor: pointer;
 }
-#availability .a-col.action a:hover::after {
+#availability .a-col.action p:hover::after {
   right: 10px;
 }
-#availability .a-col.action a:focus, #availability .a-col.action a:active {
+#availability .a-col.action p:focus, #availability .a-col.action a:active {
   outline: none;
   text-decoration: none;
 }
-#availability .a-col.action a span {
+#availability .a-col.action p span {
   display: block;
 }
+
+.availability-p {
+  margin-bottom: 0 !important;
+  font-size: 16px !important;
+}
+
 #availability .a-col .input-field {
   width: 100%;
 }
