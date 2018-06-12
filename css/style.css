@@ -9029,7 +9029,7 @@ input[type="text"] {
 .fh5co-table,
 .fh5co-table-cell,
 .fh5co-parallax {
-  height: 700px;
+  /*height: 700px;*/
 }
 
 .fh5co-parallax {
@@ -9037,8 +9037,9 @@ input[type="text"] {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  height: 100vh;
   background-repeat: no-repeat;
-  /*background-position: 0 100%;*/
+  background-position: 0 0;
 }
 .fh5co-parallax .overlay {
   position: absolute;
@@ -9051,7 +9052,7 @@ input[type="text"] {
 
 @media screen and (max-width: 768px) {
   .fh5co-parallax {
-    height: inherit;
+    /*height: inherit;*/
     padding: 4em 0;
   }
 }
