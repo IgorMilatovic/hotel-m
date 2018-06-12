@@ -9033,7 +9033,6 @@ input[type="text"] {
 }
 
 .fh5co-parallax {
-  background-color: #555;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -9053,7 +9052,7 @@ input[type="text"] {
 @media screen and (max-width: 768px) {
   .fh5co-parallax {
     /*height: inherit;*/
-    padding: 4em 0;
+    /*padding: 4em 0;*/
   }
 }
 .fh5co-parallax .fh5co-intro h1 {
