@@ -45,6 +45,10 @@ summary {
   display: block;
 }
 
+aside {
+  display: block !important;
+}
+
 audio,
 canvas,
 progress,
@@ -8498,7 +8502,7 @@ div.cs-select span {
 
 #featured-hotel,
 #hotel-facilities {
-  padding: 0 0 7em 0;
+  padding: 0 0 0.5em 0;
 }
 
 
@@ -8548,7 +8552,7 @@ div.cs-select span {
   }
 }*/
 
-@media (min-width: 280px) and (max-width: 400px) {
+@media (min-width: 280px) and (max-width: 800px) {
   #tabs .tabs-nav > a > span {
     display: none !important;
   }
@@ -9053,7 +9057,6 @@ input[type="text"] {
   .fh5co-parallax {
     /*height: inherit;*/
     /*padding: 4em 0;*/
-    background-position: 0 -1000%;
   }
 }
 .fh5co-parallax .fh5co-intro h1 {
