@@ -233,29 +233,52 @@ $(function(){
 
 });
 
-// otvaranje booking prozora
+// otvaranje i zatvaranje booking prozora
 
 const checkAvailability = document.querySelector('.a-col');
 const proba = document.querySelector('.proba');
+const xDugme = document.querySelector('.close-widget-holder');
 
 function pozoviBooking () {
+   if (xDugme.childNodes[0] === undefined) {
+   //iframe booking
    let booking = document.createElement("iframe");
-   let divce = document.createElement("div");
-   divce.setAttribute('class', 'close')
-   const heyo = document.querySelector('.close');
    booking.setAttribute('src', ' https://hotel.montenegro-booking.com/HotelMClub.html');
-   booking.setAttribute('width', ' 100%');
-   booking.setAttribute('height', '500px');
+   booking.setAttribute('class', 'booking-widget'); 
+   booking.setAttribute('width', '100%'); 
    
-
-   let zatvori = document.createElement("a");
+   //close dugme
+   let divZatvori = document.createElement("div");
+   divZatvori.setAttribute('class', 'close-widget');
+   let zatvori = document.createElement("span");
    let text = 'X';
    let zatvoriText = document.createTextNode(text);
    zatvori.appendChild(zatvoriText);
-   // zatvori.setAttribute('class', 'ajdesad')
-   heyo.appendChild(zatvori);
-   proba.appendChild(heyo);
+   divZatvori.appendChild(zatvori)
+   xDugme.appendChild(divZatvori);
+   
+   //dodavanje iframe-a i close-a na stranu
+   proba.appendChild(xDugme);
    proba.appendChild(booking);
-}
-	
+   console.log(xDugme.childNodes[0])
+   //zatvaranje
+   function zatvoriBooking() {
+      while (proba.hasChildNodes()) {  
+         proba.removeChild(proba.firstChild);
+      } 
+      while (xDugme.hasChildNodes()) {  
+         xDugme.removeChild(xDugme.firstChild);
+      }
+   };
+   
+   //dodavanje funkcije zatvaranja na close dugme
+   xDugme.addEventListener('click', zatvoriBooking);
+
+}//if
+
+} 
+//kraj fa
+
+
 checkAvailability.addEventListener('click', pozoviBooking);
+

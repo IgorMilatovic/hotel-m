@@ -8101,6 +8101,15 @@ div.cs-select span {
   #availability {
     width: 100%;
   }
+
+
+                    /*SINISA 3. PROMENA*/
+  #map {
+    margin-bottom: 30px;
+  }
+
+
+  
 }
 @media screen and (max-width: 1130px) {
   #availability {
@@ -8117,6 +8126,8 @@ div.cs-select span {
     width: 100%;
     top: 0;
   }
+
+
 }
 @media screen and (max-width: 915px) {
   #availability {
@@ -8833,6 +8844,11 @@ div.cs-select span {
   margin-bottom: 40px;
 }
 @media screen and (max-width: 992px) {
+  .fh5co-parallax {
+    /*height: inherit;*/
+    /*padding: 4em 0;*/
+  }
+
   #fh5co-blog-section .desc {
     margin-bottom: 40px;
   }
@@ -8922,9 +8938,14 @@ input[type="text"] {
   height: 700px;
   position: relative;
 }
+
+
+
+                /*SINISA 2. PROMENA*/
 @media screen and (max-width: 768px) {
   #map {
-    height: 200px;
+    height: 500px;
+    margin-bottom: 30px;
   }
 }
 
@@ -9043,13 +9064,15 @@ input[type="text"] {
   /*height: 700px;*/
 }
 
+
+                    /*SINISA 1. PROMENA*/
 .fh5co-parallax {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  height: 100vh;
-  background-repeat: no-repeat;
+  height: 630px;
   background-position: 0 0;
+  background-repeat: no-repeat;
 }
 .fh5co-parallax .overlay {
   position: absolute;
@@ -9061,7 +9084,6 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 768px) {
-  .fh5co-parallax {
     /*height: inherit;*/
     /*padding: 4em 0;*/
   }
@@ -9394,11 +9416,41 @@ input[type="text"] {
   height: 2px;
   border: 1px solid #FF5722;
 }
+
+.proba {
+  position: relative;
+}
+
+.close-widget-holder {
+  position: absolute;
+  top: 7px;
+  right: 14px;
+}
+
+.booking-widget {
+  height: 450px !important;
+}
+
+.close-widget {
+  background: transparent !important;
+  color: #fff !important;
+  text-shadow: 0 0 5px black;
+  font-size: 27px;
+  display: inline-block;
+}
+
+.close-widget:hover {
+  color: #FF5722 !important;
+  cursor: pointer !important;
+}
+
 /*Header*/
 @media screen and (max-width: 768px) {
   .header-text-holder {
     margin-top: -120px;
   }
+
+
 }
 
 /*Footer*/
@@ -9440,14 +9492,24 @@ input[type="text"] {
   font-size: 27px;
 }
 
+
+
+
+                  /*SINISA 4. PROMENA*/
 @media (max-width: 550px) {
+  .fh5co-parallax {
+    background-position: -100px !important;
+  }
   .servis-p {
     font-size: 17px;
   }
 }
 
-/*Kontakt Strana*/
 
+/*Kontakt Strana*/   /*SINISA 5. PROMENA*/
+#fh5co-contact-section {
+  padding: 4em 0;
+}
 
 
 
