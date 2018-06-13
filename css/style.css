@@ -9508,6 +9508,15 @@ input[type="text"] {
   }
 }
 
+@media (max-width: 800px) {
+  .fh5co-parallax {
+    background-attachment: scroll !important;
+  }
+  .servis-p {
+    font-size: 17px;
+  }
+}
+
 
 /*Kontakt Strana*/   /*SINISA 5. PROMENA*/
 #fh5co-contact-section {
