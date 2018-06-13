@@ -9068,12 +9068,26 @@ input[type="text"] {
                     /*SINISA 1. PROMENA*/
 .fh5co-parallax {
   background-attachment: fixed;
-  background-size: 100% 100vh;
+  background-size: cover;
   position: relative;
   height: 630px;
   background-position: 0 0;
   background-repeat: no-repeat;
 }
+.fh5co-parallax:after {
+  content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
 .fh5co-parallax .overlay {
   position: absolute;
   top: 0;
