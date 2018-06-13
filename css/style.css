@@ -9068,6 +9068,9 @@ input[type="text"] {
                     /*SINISA 1. PROMENA*/
 .fh5co-parallax {
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: relative;
   height: 630px;
