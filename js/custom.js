@@ -236,7 +236,7 @@ $(function(){
 // otvaranje i zatvaranje booking prozora
 
 const checkAvailability = document.querySelector('.a-col');
-const proba = document.querySelector('.proba');
+const iframeHolder = document.querySelector('.iframeHolder');
 const xDugme = document.querySelector('.close-widget-holder');
 
 function pozoviBooking () {
@@ -258,13 +258,13 @@ function pozoviBooking () {
    xDugme.appendChild(divZatvori);
    
    //dodavanje iframe-a i close-a na stranu
-   proba.appendChild(xDugme);
-   proba.appendChild(booking);
+   iframeHolder.appendChild(xDugme);
+   iframeHolder.appendChild(booking);
    console.log(xDugme.childNodes[0])
    //zatvaranje
    function zatvoriBooking() {
-      while (proba.hasChildNodes()) {  
-         proba.removeChild(proba.firstChild);
+      while (iframeHolder.hasChildNodes()) {  
+         iframeHolder.removeChild(iframeHolder.firstChild);
       } 
       while (xDugme.hasChildNodes()) {  
          xDugme.removeChild(xDugme.firstChild);
