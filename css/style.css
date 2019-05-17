@@ -9070,7 +9070,7 @@ input[type="text"] {
   background-attachment: scroll;
   background-size: cover;
   position: relative;
-  height: 630px;
+  height: 100vh;
   background-position: 0 0;
   background-repeat: no-repeat;
 }
